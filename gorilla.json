@@ -1,0 +1,13 @@
+{
+    "name": "Gorilla",
+    "inference_params": {
+      "input_prefix": "USER:\n",
+      "input_suffix": "\nASSISTANT:\n",
+      "antiprompt": [
+        "USER:"
+      ],
+      "pre_prompt": "",
+      "pre_prompt_suffix": "",
+      "pre_prompt_prefix": ""
+    }
+  }
