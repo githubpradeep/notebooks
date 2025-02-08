@@ -662,7 +662,7 @@ trainer = REINFORCETrainer(
 
 
 trainer.batch_size = 16
-trainer.max_length = 200
+trainer.max_length = 512
 dataset = dataset.shuffle()
 # After loading your model:
 trainer.model.gradient_checkpointing_enable()
